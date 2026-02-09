@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  color: rgb(255, 255, 255);
+  background-color: #f85210;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  background-color: #ff9c1a;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  background-color: #ff9c1a;
+  padding: 10px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+footer {
+  color: #ffffff;
+  font-size: 2.5rem;
+  background-color: #f85210;
+  padding: 20px;
+}
+
+body {
+  color: black;
+  .gideon-roman-regular {
+    font-family: "Lorem Ipsum";
+    font-weight: 400;
+    font-style: normal;
+  }
+}
